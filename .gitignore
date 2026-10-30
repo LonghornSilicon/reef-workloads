@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+
+# uv / virtualenv
+.venv/
+
+# Datasets (downloaded locally, never committed)
+data/
+
+# Workload artifacts
+logs/
+results/**/*.png
+*.onnx
+*.pt
+*.pth
+*.safetensors
+
+# Hugging Face / torch caches if pointed inside the repo
+.cache/
+
+# macOS
+.DS_Store
